@@ -1,11 +1,11 @@
-package com.healthnotifier;
+package com.lifesaver;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("healthnotifier")
-public interface HealthNotifierConfig extends Config
+public interface LifeSaverConfig extends Config
 {
 
 	@ConfigItem(

@@ -1,4 +1,4 @@
-package com.healthnotifier;
+package com.lifesaver;
 
 import com.google.inject.Provides;
 import net.runelite.api.*;
@@ -17,7 +17,7 @@ import javax.inject.Inject;
 	description = "Forces a notification when at or below specified hitpoints",
 	tags = {"health", "hitpoints", "notifications"}
 )
-public class HealthNotifierPlugin extends Plugin
+public class LifeSaverPlugin extends Plugin
 {
 	@Inject
 	private Notifier notifier;
@@ -26,14 +26,14 @@ public class HealthNotifierPlugin extends Plugin
 	private Client client;
 
 	@Inject
-	private HealthNotifierConfig config;
+	private LifeSaverConfig config;
 
 	private boolean notifyHitpoints = true;
 
 	@Provides
-	HealthNotifierConfig provideConfig(ConfigManager configManager)
+	LifeSaverConfig provideConfig(ConfigManager configManager)
 	{
-		return configManager.getConfig(HealthNotifierConfig.class);
+		return configManager.getConfig(LifeSaverConfig.class);
 	}
 
 	@Subscribe
