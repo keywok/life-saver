@@ -13,7 +13,7 @@ import javax.inject.Inject;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Health Notifier",
+	name = "Life Saver",
 	description = "Forces a notification when at or below specified hitpoints",
 	tags = {"health", "hitpoints", "notifications"}
 )
