@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# Health Notifier
+A plugin to force a notification if you fall below your configured hitpoints level. Just turn on and set the hitpoint amount you want to set off your notification and enjoy no unexpected trips to lumbridge!

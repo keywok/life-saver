@@ -1,13 +1,13 @@
-package com.example;
+package com.healthnotifier;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class HealthNotifierPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(HealthNotifierPlugin.class);
 		RuneLite.main(args);
 	}
 }
